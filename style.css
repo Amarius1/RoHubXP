@@ -10,9 +10,14 @@
 
 /*CENTERING*/
 .center {
+  display: flex;
   justify-content: center;
 }
 .main-card {
   height: 350px;
   width: 60%;
+}
+body {
+  margin-left: 5%;
+  margin-right: 5%;
 }
