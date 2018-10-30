@@ -1,0 +1,11 @@
+{
+  "name": "rohub",
+  "version": "1.0.0",
+  "description": "It's for everyone",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "Amarius1",
+  "license": "ISC"
+}

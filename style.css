@@ -1,0 +1,18 @@
+
+/*FONTS*/
+.mono {
+	font-family: 'Roboto Mono', monospace;
+}
+.montserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+/*COLORS*/
+
+/*CENTERING*/
+.center {
+  justify-content: center;
+}
+.main-card {
+  height: 350px;
+  width: 60%;
+}
