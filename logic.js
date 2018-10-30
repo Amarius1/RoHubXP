@@ -6,4 +6,3 @@ document.addEventListener("DOMContentLoaded", function(){
 		.fadeOut();
 });
 AOS.init()
-mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));

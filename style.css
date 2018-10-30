@@ -17,7 +17,51 @@
   height: 350px;
   width: 60%;
 }
-body {
-  margin-left: 5%;
-  margin-right: 5%;
+.card-text-padding {
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+.rounded {
+	border-radius: 9px 9px 9px 9px;
+}
+.demo-layout-transparent {
+  background: url('bkg.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+	outline:0;
+}
+.white-text
+{
+	color: white;
+}
+.text-zone
+{
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size:18px;
+	line-height: 1.5em;
+}
+.demo-card-square.mdl-card {
+  width: 600px;
+  height: 120px;
+}
+@media only screen and (max-width: 768px) {
+	.text-zone
+	{
+		margin-left: 7%;
+		margin-right: 7%;
+
+	}
 }
