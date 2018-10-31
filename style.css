@@ -6,12 +6,34 @@
 .montserrat {
 	font-family: 'Montserrat', sans-serif;
 }
+.futura-light {
+	font-family: futura-medium;
+}
+@font-face {
+    font-family: futura-medium;
+    src: url('fonts/Gilroy-Light.otf');
+}
 /*COLORS*/
 
 /*CENTERING*/
 .center {
   display: flex;
   justify-content: center;
+}
+.pattern1 {
+	background-color:#269;
+	background-image: linear-gradient(white 2px, transparent 2px),
+	linear-gradient(90deg, white 2px, transparent 2px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+.gradient1 {
+	background: #F3904F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 }
 .main-card {
   height: 350px;
@@ -60,16 +82,34 @@
 .title {
 margin-top: 8%; 	font-size:150px;
 }
+.btn-outline {
+	border: 2px solid red;
+}
+.btn-md2
+{
+	border-radius: 30px 30px 30px 30px;
+	text-transform: capitalize;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 13px;
+	padding-right: 13px;
+	font-size:16px;
+	background-color: #fafafa;
+	color: #616161;
+}
+#button:hover {
+	background-color: #e8eaf6;
+	color: #039be5;
+}
+#button:active {
+	background-color: #03a9f4;
+	color: #f5f5f5;
+
+}
 @media only screen and (max-width: 768px) {
-	.text-zone
-	{
-		margin-left: 7%;
-		margin-right: 7%;
-		font-size:12px;
-		margin-top: -4%;
-	}
 	.title {
-	margin-top: 0%; 	font-size:50px;
+	margin-top: 3%;
+	font-size:90px;
 	}
 
 }
