@@ -34,7 +34,24 @@
 	background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.gradient2 {
+	background: #642b73; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #642b73, #c6426e); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #642b73, #c6426e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.gradient3 {
+	background: #F3904F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.gradient4 {
+	background: #F3904F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .main-card {
   height: 350px;
   width: 60%;
@@ -85,10 +102,43 @@ font-size:150px;
 	padding-right: 13px;
 	font-size:16px;
 }
+.btn-md3
+{
+	text-transform: capitalize;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 13px;
+	padding-right: 13px;
+	font-size:16px;
+}
 .btn-outline
 {
 	font-size:15px;
 	background-color: #212121;
+}
+.text-size1
+{
+	font-size: 16px;
+}
+.title2
+{
+	font-size: 20px;
+	padding-top: 10px;
+	margin-top: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+
+}
+.md4
+{
+	margin-top: 7px;
+	display: block;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.md-outline
+{
+	border: 1.5px solid  white;
 }
 .lowercase
 {
@@ -120,19 +170,23 @@ font-size:150px;
 }
 .mix {
 	position: absolute;
- top: 10px;
+ top: 60px;
  z-index: -100;
- width: 400px;
+ width: 300px;
  left: 80px;
  opacity: 0.8;
 }
 .mi5x {
 	position:absolute;
- top: -10px;
+ top: 30px;
  z-index: -100;
- width: 620px;
+ width: 500px;
  opacity: 0.99;
  right: 0px;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 @media only screen and (max-width: 768px) {
 	.title {
@@ -185,4 +239,12 @@ font-size:150px;
 	bottom: 7px;
 	width: 100px;
 	font-size: 20px;
+}
+.side-nav {
+	width: 300px;
+	background-color: white;
+	background-color:rgba(250,250,250,0.15);
+}
+.sticky {
+  position: fixed;
 }
